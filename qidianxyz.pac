@@ -1,3 +1,5 @@
+//去除360限制
+
 var proxy = "PROXY jw06.setdns.work:80;";
 
 var domains = {
