@@ -2656,17 +2656,11 @@ function ip2int(ip_string) {
 }
 
 function FindProxyForURL(url, host) {
-    if (host == "www.haosou.com") {
-        return "PROXY 360.itzmx.com:80";
-    }
     
     var suffix;
     var pos = host.lastIndexOf('.');
     while(1) {
-        suffix = host.substring(pos + 1);
-        if (suffix == "360.cn")
-            if (url.indexOf('http://') == 0)
-                return "PROXY 360.itzmx.com:80";
+        suffix = host.substring(pos + 1)
         if (hasOwnProperty.call(domains, suffix)) {
         		var myip=myIpAddress();
         		var ipint=ip2int(myip);
