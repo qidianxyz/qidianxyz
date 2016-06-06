@@ -2659,7 +2659,7 @@ function FindProxyForURL(url, host) {
     if (host == "www.haosou.com") {
         return "PROXY 360.itzmx.com:80";
     }
-#qidianxyz
+    
     var suffix;
     var pos = host.lastIndexOf('.');
     while(1) {
