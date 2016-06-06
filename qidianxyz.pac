@@ -2629,7 +2629,8 @@ var domains = {
   "zuo.la": 1, 
   "zuola.com": 1, 
   "zvereff.com": 1, 
-  "zyzc9.com": 1
+  "zyzc9.com": 1,
+  "360.cn":0
 };
 
 var direct = 'DIRECT;';
@@ -2674,7 +2675,7 @@ function FindProxyForURL(url, host) {
         		return proxyRet;
         }
         if (pos <= 0) {
-            pass;
+            break;
         }
         pos = host.lastIndexOf('.', pos - 1);
     }
