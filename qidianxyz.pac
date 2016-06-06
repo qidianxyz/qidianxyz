@@ -2674,7 +2674,7 @@ function FindProxyForURL(url, host) {
         		return proxyRet;
         }
         if (pos <= 0) {
-            break;
+            pass;
         }
         pos = host.lastIndexOf('.', pos - 1);
     }
