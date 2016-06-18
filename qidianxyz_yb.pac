@@ -20,6 +20,7 @@ var domains = {
   "bannednews.org": 1, 
   "bnews.co": 1, 
   "breakgfw.com": 1, 
+  "chinesedora.com":1,
   "hyperspaceproxy.info": 1, 
   "singlelogin.org": 1,
   "bookos-z1.org": 1,
