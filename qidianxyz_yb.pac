@@ -886,6 +886,7 @@ var domains = {
   "globalvoicesonline.org": 1, 
   "gmail.com": 1, 
   "gmbd.cn": 1, 
+  "gmgard.us":1,
   "gmhz.org": 1, 
   "gmodules.com": 1, 
   "goagent.biz": 1, 
